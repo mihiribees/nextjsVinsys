@@ -1,0 +1,603 @@
+@media screen and (max-width: 1199px) {
+    .home-banner {
+        &.flsHomeBanner {
+            .heading {
+                font-size: 42px;
+            }
+        
+            .inner-content {
+                column-gap: 8%;
+                .item {
+                    width: 46%;
+                }
+            }
+        }
+    }
+
+    .flsServices {
+        .heading {
+            font-size: 32px;
+        }
+        .icon-wrapper {
+            max-width: 150px;
+            max-height: 150px;
+        }
+        
+        .btn {
+            width: 40px;
+            height: 40px;
+            img {
+                max-width: 16px;
+            }
+        }
+    }
+
+    .flsCounter {
+        .content {
+            width: calc(100% - 100px);
+        }
+        .icon-wrapper {
+            min-width: 80px;
+            min-height: 80px;
+
+            img {
+                max-width: 40px;
+                max-height: 40px;
+            }
+        }
+
+        .num {
+            font-size: 24px;
+        }
+
+        .items {
+            .item {
+                width: 49%;
+            }
+        }
+    }
+
+    .flsChooseUs {
+        .listing-items {
+            .listing-item {
+                p {
+                    width: calc(100% - 90px);
+                    margin-top: 0px;
+                    font-size: 16px;
+                }
+                
+                .icon-wrapper {
+                    width: 70px;
+                }
+            }
+        }
+    }
+
+    .flsDataSecurity {
+        .img-wrapper {
+            img {
+                max-width: 400px;
+                width: 100%;
+            }
+        }
+
+        .items {
+            margin-top: -100px;
+        }
+        .item {
+            width: calc(50% - 230px);
+            .icon-wrapper {
+                width: 80px;
+                height: 80px;
+
+                &::before {
+                    right: -6px;
+                }
+
+                img {
+                    max-width: 36px;
+                    max-height: 36px;
+                }
+            }
+        }
+    }
+
+    .flsProcess {
+        .inner-content {
+            padding: 50px 20px 30px;
+            row-gap: 16px;
+        }
+
+        .heading {
+            font-size: 16px;
+        }
+
+        .items {
+            row-gap: 20px;
+        }
+    }
+
+    .flsWhatOffer {
+        .items{
+            &.five-column,
+            &.two-column {
+                .item {
+                    .heading {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .home-banner {
+        &.flsHomeBanner {
+            .inner-content {
+                padding-top: 100px;
+                padding-bottom: 100px;
+                min-height: calc(100vh - 80px);
+            }
+        }
+    }
+
+    .flsIndustriesArea {
+        .itemsWrapper {
+            width: 100%;
+            height: auto;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            row-gap: 30px;
+        
+            .img-wrapper {
+                position: static;
+                width: 100%;
+                max-width: 500px;
+                height: auto;
+
+                &::before {
+                    display: none;
+                }
+            }
+        }
+
+        .item {
+            position: static;
+            margin: auto;
+            width: 49%;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .home-banner{
+        &.flsHomeBanner {
+            .inner-content {
+                padding-top: 60px;
+                padding-bottom: 60px;
+                row-gap: 60px;
+                min-height: 550px;
+                .item {
+                    width: 100%;
+                }
+
+                .img-wrapper {
+                    img {
+                        max-width: 450px;
+                        margin: auto;
+                        width: 100%;
+                    }
+                }
+
+                .content-wrapper {
+                    text-align: center;
+
+                    .btn-wrapper {
+                        justify-content: center;
+                    }
+                }
+            }
+            .heading {
+                font-size: 34px;
+                line-height: 1.5;
+            }
+        }
+    }
+    .flsIndustries {
+        .circle-wrapper {
+            width: 100%;
+            height: auto;
+            column-gap: 2%;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 30px;
+            justify-content: center;
+        }
+        .item {
+            width: 32%;
+            height: auto;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            position: static;
+        }
+        .center-container {
+            position: static;
+            width: 100%;
+            height: auto;
+            box-shadow: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        .border-animation {
+            display: none;
+        }
+    }
+
+    .flsDataSecurity {
+        .img-wrapper {
+            position: static;
+        }
+
+        .items {
+            margin-top: 60px;
+            justify-content: center;
+        }
+
+        .item {
+            max-width: 550px;
+            width: 100%;
+            align-items: center;
+            min-height: initial;
+            padding-bottom: 20px;
+
+            .icon-wrapper {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            &:nth-child(4n+2) {
+                align-items: center;
+            }
+
+            &:nth-last-child(1):nth-child(odd) {
+                width: 100%;
+            }
+
+            &:nth-last-child(1) {
+                padding-bottom: 0px;
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .flsGetQuote {
+        .content-wrapper {
+            width: 100%;
+            max-width: 550px;
+            margin: auto;
+        }
+        
+        .inner-content {
+            padding: 40px 20px 30px;
+        }
+
+        .form-wrapper {
+            width: 100%;
+        }
+    }
+
+    .flsChooseUs {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+        .items {
+            .content-wrapper {
+                width: 100%;
+            }
+
+            .heading-wrapper {
+                text-align: center;
+            }
+
+            .img-wrapper {
+                width: 100%;
+                margin: auto;
+                max-width: 500px;
+            }
+        }
+        .listing-item {
+            margin-left: auto;
+            margin-right: auto;
+            width: 49%;
+        }
+    }
+
+    .flsCounter {
+        .items {
+            .item {
+                width: 100%;
+                max-width: 500px;
+                margin: auto;            
+            }
+        }
+    }
+
+    .flsServices {
+        .items.three-column {
+            .item {
+                padding: 20px;
+            }
+        }
+        .heading {
+            font-size: 22px;
+        }
+
+        .icon-wrapper {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    }
+
+    .flsWhatOffer {
+        .items{
+            &.five-column,
+            &.two-column {
+                .item {
+                    .heading {
+                        font-size: 18px;
+                    }
+                }
+
+                img {
+                    max-width: 120px;
+                }
+            }
+        }
+    }
+
+    .flsProcess{
+        &.flsLocalProcess {
+            .item {
+                width: 32%;
+            }
+        }
+    }
+
+    .about-us-sec{
+        &.areaSolution {
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+            &::before {
+                width: 100%;
+                height: 100%;
+                top: auto;
+            }
+
+            img {
+                max-width: 450px;
+                width: 100%;
+            }
+        }
+    }
+
+    .flscontactus {
+        .inner-content {
+            column-gap: 2%;
+            .item {
+                width: 49%;
+            }
+        }
+
+        .addressItems p,
+        .addressItems a {
+            font-size: 14px;
+        }
+    }
+
+    .flsCaseStudyListing {
+        .img-wrapper {
+            border-radius: 6px;
+        }
+
+        .caseStudyTitle {
+            font-size: 22px;
+        }
+
+        .content {
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .home-banner{
+        &.flsHomeBanner {
+            .heading {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .flsGetQuote {
+        .content-wrapper {
+            .img-wrapper {
+                margin-top: -20px;
+            }
+        }
+    }
+
+    .flsCounter {
+        .items {
+            .item {
+                width: 100%;
+            }
+        }
+    }
+
+    .flsIndustries {
+        .circle-wrapper {
+            row-gap: 15px;
+        }
+        .center-container {
+            margin-bottom: 0px;
+        }
+        .item {
+            width: 49%;
+            padding: 20px 10px;
+            margin: auto;
+        }
+    }
+
+    .flsChooseUs {
+        .listing-items {
+            row-gap: 30px;
+
+            .listing-item {
+                flex-direction: column;
+                row-gap: 15px;
+                p {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 14px;
+                }
+            }
+
+            .btn-wrapper {
+                justify-content: center;
+                width: 100%;
+            }
+        }
+    }
+
+    .flsWhatOffer {
+        .items{
+            &.five-column,
+            &.two-column {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                row-gap: 15px;
+
+                .item {
+                    width: 100%;
+                    max-width: 500px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+
+    .flsProcess{
+        &.flsLocalProcess {
+            .item {
+                width: 100%;
+                max-width: 550px;
+                margin: auto;
+            }
+        }
+    }
+
+    .flsIndustriesArea {
+        .item {
+            width: 100%;
+            margin: auto;
+            max-width: 500px;
+        }
+    }
+
+    .flsIndustriesWhy {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .items {
+            .content-wrapper {
+                width: 100%;
+            }
+
+            .img-wrapper {
+                width: 100%;
+                max-width: 450px;
+                margin: auto;
+            }
+        }
+    }
+
+    .flscontactus {
+        .common-heading {
+            font-size: 26px;
+        }
+
+        .inner-content {
+            .item {
+                width: 100%;
+            }
+        }
+
+        .img-wrapper {
+            width: 100%;
+            max-width: 450px;
+            margin: auto;
+        }
+    }
+
+    .flsCaseStudyListing {
+        .inner-content {
+            .left-section {
+                width: 100%;
+                padding-bottom: 30px;
+                border-bottom: 1px solid #dddddd;
+            }
+            .right-section {
+                width: 100%;
+                .items {
+                    column-gap: 2%;
+                    row-gap: 30px;
+                }
+                .item {
+                    width: 49%;
+                }
+
+                .content {
+                    p {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .name-wrapper {
+            column-gap: 15px;
+            flex-direction: column;
+            align-items: flex-start;
+            row-gap: 10px;
+
+            .text {
+                font-size: 14px;
+
+                .name,
+                .date {
+                    display: block;
+                }
+
+                .date {
+                    padding-left: 0px;
+                    margin-left: 0px;
+                    border-left: 0px;
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,60 @@
+
+.bgground{
+  background: #41759F;
+  padding: 6px 20px;
+  border-radius: 1px;
+}
+
+.breadcrumbs li:first-child {
+  font-size: 16px;
+}
+
+.breadcrumbs li {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 20px;
+  color: #999;
+}
+
+.breadcrumbs li a {
+  padding: 0 40px 0 0px;
+  color: #ccc;
+  text-decoration: none;
+  height: 20px;
+  position: relative;
+  perspective: 700px;
+}
+
+.breadcrumbs li a:after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 1px 1px 0 0;
+  -webkit-backface-visibility: hidden;
+  outline: 1px solid transparent;
+  position: absolute;
+  right: 20px;
+  top: 6px;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  -webkit-transform: rotateZ(45deg) skew(10deg, 10deg);
+  -moz-transform: rotateZ(45deg) skew(10deg, 10deg);
+  -ms-transform: rotateZ(45deg) skew(10deg, 10deg);
+  transform: rotateZ(45deg) skew(10deg, 10deg);
+}
+
+.breadcrumbs li a:hover:after {
+  right: 15px;
+  -webkit-transform: rotateZ(45deg) skew(-10deg, -10deg);
+  -moz-transform: rotateZ(45deg) skew(-10deg, -10deg);
+  -ms-transform: rotateZ(45deg) skew(-10deg, -10deg);
+  transform: rotateZ(45deg) skew(-10deg, -10deg);
+}

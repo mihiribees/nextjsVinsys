@@ -1,0 +1,1073 @@
+@media screen and (max-width: 1199px) {
+    .digi-offering-features {
+        .offering-features {
+            .item.video {
+                li.video {
+                    display: flex;
+                    justify-content: center;
+                    .video-frame {
+                        max-width: 450px;
+
+                        .video-sec {
+                            top: 15px;
+                            left: 53px;
+                            max-width: 347px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .digilearn-cousre-highlights {
+        .inner-container {
+            border-radius: 0px;
+            margin-bottom: 0px;
+            padding: 40px;
+        }
+    }
+
+    .offerConsulting {
+        .content-wrapper {
+            padding: 30px;
+        }
+    }
+
+    .ourUspIconSection {
+        .item {
+            .inner-content {
+                padding: 40px 20px;
+            }
+        }
+    }
+
+    .fmcgSection {
+        .img-wrapper {
+            img {
+                max-width: 300px;
+            }
+        }
+        .item {
+            width: calc(50% - 150px);
+            padding: 16px;
+            column-gap: 10px;
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    
+    .aviationSection {
+        .item {
+            width: calc(50% - 150px);
+        }
+
+        .img-wrapper {
+            img {
+                max-width: 300px;
+                width: 100%;
+            }
+        }
+
+        .items {
+            row-gap: 30px;
+        }
+
+        &.offers-feature {
+            .img-wrapper {
+                img {
+                    max-width: 450px;
+                }
+                .video-sec {
+                    height: 281px;
+                    width: 346px;
+                    top: 48px;
+                }
+            }
+
+            .item {
+                width: calc(50% - 230px);
+
+                &:first-child,
+                &:last-child {
+                    .description {
+                        max-width: 400px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .digilearn-solution-sec {
+        .solutions {
+            li {
+                .overlay {
+                    left: 0;
+                    border-bottom: 0px;
+                    border-top: 0px;
+                    border-right: 0px;
+                    height: max-content;
+                    display: flex;
+                    align-items: flex-start;
+                    background: var(--white-color);
+                    justify-content: flex-end;
+                    flex-direction: column;
+                    padding: 20px;
+                    row-gap: 20px;
+                    bottom: -100%;
+
+                    .inner {
+                        width: 100%;
+                        position: static;
+                        padding: 0px;
+
+                        .solution-name {
+                            font-size: 20px;
+                            line-height: 1.6;
+                        }
+                    }
+
+                    .btn {
+                        width: 50px;
+                        height: 50px;
+                        position: static;
+                        right: -588px;
+                        top: -208px;
+                        background: linear-gradient(89.87deg, #A0C882 0.09%, #004983 99.86%);
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: center;
+                        transition: all linear .3s;
+                        padding-left: 0;
+                        padding: 5px;
+                        border-radius: 50%;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .digi-video-sec {
+        .video-frame {
+            max-width: 680px;
+            .video-sec {
+                top: 23px;
+                left: 81px;
+                width: 524px;
+            }
+        }
+    }
+
+    .generate-quota-form {
+        .forms-wrapper {
+            .tabs-wrapper {
+                li {
+                    width: 100%;
+                }
+            }
+            .content-wrapper {
+                .inner {
+                    box-shadow: 7px 5px 30px 0px rgba(72, 73, 121, 0.15);
+                    border-radius: 10px;
+                    overflow: hidden;
+                }
+                .common-heading {
+                    font-size: 16px;
+                    display: block;
+                    margin-bottom: 0;
+                    text-align: left;
+                    font-weight: 500;
+                    color: var(--dark-grey);
+                    background: #fff;
+                    padding: 15px 15px;
+                    border-bottom: 1px solid rgba(0,0,0,0.04);
+                }
+
+                .common-from {
+                    border-radius: 0px;
+                    box-shadow: none;
+                    padding-top: 8px;
+                }
+            }
+        }
+
+        .common-from {
+            .btn-wrapper {
+                justify-content: flex-start !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .digi-courses {
+        .course-list {
+            .item {
+                width: 100%;
+            }
+        }
+    }
+
+    .digi-offering-features {
+        .offering-features {
+            flex-direction: column;
+            .item {
+                width: 100%;
+
+                &.video {
+                    width: 100%;
+
+                    li {
+                        max-width: initial;
+                    }
+                }
+            }
+        }
+    }
+
+    .digilearn-cousre-highlights {
+        .inner-container {
+            ul {
+                li {
+                    width: 49%;
+                }
+            }
+        }
+    }
+
+    .digilearn-feature-courses {
+        ul {
+            li {
+                width: 49%;
+                padding: 30px 16px;
+            }
+        }
+
+        &.usps {
+            li {
+                width: 32%;
+            }
+        }
+    }
+
+    .digilearning-suit-learning-platform {
+        .platforms {
+            .items {
+                .image {
+                    width: 100%;
+                    max-width: 560px;
+                }
+
+                .detail {
+                    width: 100%;
+                }
+
+                &:nth-of-type(even) {
+                    .image {
+                        order: 1;
+                    }
+
+                    .detail {
+                        order: 2;
+                    }
+                }
+
+                .shedule {
+                    row-gap: 30px;
+                    .left {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .digilearning-learning-management-trainings {
+        .trainings {
+            .item {
+                width: 49%;
+            }
+        }
+    }
+
+    .offerConsulting {
+        .item {
+            flex-direction: column;
+            border-radius: 8px;
+            overflow: hidden;
+
+            .img-wrapper {
+                width: 100%;
+                border-radius: 0px;
+            }
+
+            .content-wrapper {
+                width: 100%;
+                margin-left: 0px;
+                border-radius: 0px;
+                padding: 20px;
+            }
+
+            &:nth-child(even) {
+                .img-wrapper {
+                    order: 1;
+                }
+                .content-wrapper {
+                    order: 2;
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+
+    .customerJourney {
+        .sm-heading {
+            font-size: 18px;
+        }
+        .items {
+            padding-top: 0px;
+            flex-direction: column;
+            align-items: flex-end;
+            row-gap: 40px;
+
+            &::before {
+                left: 20px;
+                right: auto;
+                height: 100%;
+            }
+
+            .item {
+                row-gap: 20px;
+                justify-content: flex-end;
+
+                &:nth-child(odd) {
+                    .left-section {
+                        order: 1;
+                    }
+                    .right-section {
+                        order: 2;
+                    }
+                }
+
+                &::after {
+                    left: -9px;
+                    right: auto;
+                    top: 20px;
+                    bottom: auto;
+                    transform: rotate(0deg);
+                }
+            }
+
+            .left-section {
+                width: calc(100% - 56px);
+                min-height: 140px;
+                .number {
+                    font-size: 18px;
+                    padding: 20px 30px;
+                    min-width: 80px;
+                }
+
+                .img-wrapper {
+                    img {
+                        max-height: 100px;
+                        max-width: 100px;
+                    }
+                }
+            }
+
+            .right-section {
+                width: calc(100% - 56px);
+            }
+        }
+    }
+
+    .whyVinsys {
+        .inner-content {
+            flex-direction: column;
+        }
+        .heading-wrapper {
+            text-align: center;
+        }
+        .img-wrapper {
+            width: 100%;
+            order: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .content-wrapper {
+            width: 100%;
+            order: 1;
+        }
+
+        .items {
+            li {
+                font-size: 16px;
+                column-gap: 16px;
+                padding-bottom: 16px;
+                margin-bottom: 16px;
+                font-weight: 400;
+                flex-direction: column;
+                row-gap: 10px;
+                text-align: center;
+            }
+        }
+    }
+
+    .partnersProgram {
+        .top-section {
+            .img-wrapper {
+                width: 39%;
+                max-width: 550px;
+                margin: auto;
+            }
+
+            .content-wrapper {
+                width: 59%;
+            }
+        }
+    }
+    
+    .brouherSection {
+        .items {
+            row-gap: 30px;
+        }
+        .item {
+            width: 49%;
+        }
+    }
+
+    .offerFeatureSection {
+        .item {
+            width: 49%;
+        }
+    }
+
+    .contactUs {
+        .item {
+            padding: 30px 15px;
+
+            .small-heading {
+                margin-top: 24px;
+                font-size: 18px;
+            }
+
+            a,
+            p {
+                margin-top: 12px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .digi-learn-location-sec {
+        .item {
+            width: 49%;
+        }
+    }
+
+    .our-industries-ul {
+        &.case-studies-ul {
+            row-gap: 30px;
+            .item {
+                width: 32%;
+
+                .detail .title {
+                    padding-top: 15px;
+                    padding-bottom: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+        li {
+            width: 32%;
+
+            .industry-title {
+                font-size: 18px;
+                line-height: 1.5;
+                padding-bottom: 12px;
+                padding-top: 10px;
+            }
+        }
+    }
+    .ourUspImgSection {
+        .img-wrapper {
+            width: 85%;
+        }
+    }
+
+    .lmsSection {
+        .item {
+            width: 49%;
+        }
+    }
+
+    .vinsysServiceSection {
+        .item {
+            width: 49%;
+        }
+    }
+
+    .vinsysContriSection {
+        &.three-column {
+            .item {
+                width: 49%;
+            }
+        }
+    }
+
+    .whatWeDoSection {
+        .item {
+            padding: 30px 20px;
+        }
+    }
+
+    .ourUspIconSection {
+        .items {
+            justify-content: center;
+            row-gap: 30px;
+        }
+        .item {
+            width: 49%;
+        }
+    }
+
+    .fmcgSection {
+        .img-wrapper {
+            img {
+                max-width: 300px;
+                width: 100%;
+            }
+        }
+        .item {
+            width: calc(50% - 100px);
+            padding: 16px;
+            column-gap: 10px;
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .aviationSection.offers-feature {
+        padding-bottom: 30px;
+        .img-wrapper {
+            position: relative;
+            padding: 0px;
+        }
+        .items {
+            margin-top: 30px;
+        }
+        .item {
+            width: 100%;
+
+            &:first-child,
+            &:last-child {
+                .description {
+                    max-width: initial;
+                }
+            }
+
+            &:first-child {
+                top: 0;
+            }
+
+            &:last-child {
+                bottom: 0;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .inner-banner {
+        &.digi-inner-banner {
+            .image {
+                height: 40vh;
+                min-height: 100%;
+
+                .text {
+                    padding: 60px 0 30px;
+                    .common-heading {
+                        font-size: 22px;
+                        line-height: 1.4;
+                    }
+                }
+            }
+
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .digilearn-solution-sec {
+        .solutions {
+            li {
+                width: 100%;
+
+                .title {
+                    font-size: 20px;
+                    line-height: 1.6;
+                }
+
+                .inner {
+                    .desc {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .digi-video-sec {
+        min-height: 150px;
+        .video-frame {
+            max-width: 250px;
+            .video-sec {
+                top: 8px;
+                left: 30px;
+                width: 192px;
+            }
+        }
+    }
+
+    .digi-courses {
+        .course-list {
+            .item {
+                flex-direction: column;
+                align-items: flex-start;
+                row-gap: 20px;
+            }
+
+            .detail {
+                width: 100%;
+            }
+
+            .image {
+                margin: auto;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .digi-offering-features {
+        .offering-features {
+            .item.video {
+                li.video {
+                    .video-frame {
+                        max-width: 280px;
+
+                        .video-sec {
+                            top: 9px;
+                            left: 33px;
+                            max-width: 217px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .digilearn-cousre-highlights {
+        .inner-container {
+            ul {
+                li {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .digilearn-feature-courses {
+        ul {
+            li {
+                width: 100%;
+                max-width: 420px;
+                margin: 0 auto;
+
+                .title {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        &.usps {
+            li {
+                width: 100%;
+            }
+        }
+    }
+
+    .digilearning-suit-learning-platform {
+        .platforms {
+            .items {
+                .image {
+                    width: 100%;
+                    margin-bottom: 80px;
+
+                    .small-image {
+                        width: 180px;
+                        bottom: -80px;
+                    }
+                }
+
+                .title {
+                    font-size: 24px;
+                }
+
+                .shedule {
+                    .left {
+                        padding-left: 0;
+                        color: var(--dark-grey);
+                        background-size: 40px;
+                        padding-top: 50px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .digilearning-learning-management-trainings {
+        .trainings {
+            .item {
+                width: 100%;
+                max-width: 560px;
+                margin: 0 auto;
+
+                .detail {
+                    .name {
+                        font-size: 18px;
+                        line-height: 1.4;
+                    }
+                }
+            }
+        }
+    }
+
+    .consultingSection {
+        .inner-content {
+            flex-direction: column;
+            padding: 30px;
+        
+            .content-wrapper {
+                width: 100%;
+                order: 2;
+                text-align: center;
+
+                .btn-wrapper {
+                    justify-content: center;
+                    margin-top: 20px;
+                }
+            }
+
+            .img-wrapper {
+                width: 100%;
+                order: 1;
+                max-width: 500px;
+                margin: auto;
+            }
+            .small-heading {
+                font-size: 22px;
+                line-height: 1.5;
+            }
+
+            p {
+                margin-top: 16px;
+            }
+        }
+    }
+
+    .partnersProgram {
+        .top-section {
+            flex-direction: column;
+
+            .img-wrapper {
+                width: 100%;
+                max-width: 550px;
+                margin: auto;
+            }
+
+            .content-wrapper {
+                width: 100%;
+            }
+        }
+
+        .tabs-wrapper {
+            .tab-items {
+                padding: 20px;
+                column-gap: 10px;
+
+                .item {
+                    min-height: 70px;
+                    min-width: 70px;
+                    img {
+                        max-width: 50px;
+                        max-height: 50px;
+                    }
+                }
+            }
+
+            .content {
+                padding: 20px 20px 30px;
+            }
+        }
+    }
+
+    .liveWebinarSection {
+        .items {
+            .item {
+                width: 100%;
+            
+                .heading {
+                    font-size: 20px;
+                }
+
+                p {
+                    margin-top: 16px;
+                }
+                .content {
+                    row-gap: 20px;
+                }
+            }
+        }
+    }
+    
+    .brouherSection {
+        .item {
+            width: 100%;
+            max-width: 550px;
+            margin: auto;
+        }
+    }
+
+    .offerFeatureSection {
+        .item {
+            width: 100%;
+        }
+    }
+
+    .contactUs {
+        .item {
+            max-width: 550px;
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+    .mapWrapper {
+        iframe {
+            max-height: 40vh;
+        }
+    }
+
+    .digi-learn-location-sec {
+        .item {
+            width: 100%;
+            max-width: 550px;
+            margin: auto;
+        }
+    }
+
+    .our-industries-ul {
+        li {
+            width: 100%;
+            max-width: 550px;
+            margin: auto;
+        }
+
+        &.case-studies-ul {
+            .item {
+                width: 100%;
+                max-width: 550px;
+            }
+        }
+    }
+
+    .automobileIndustry {
+        .tabs-wrapper {
+            flex-direction: row;
+            column-gap: 30px;
+            width: 100%;
+            overflow-x: scroll;
+
+            p {
+                width: max-content;
+            }
+
+            .item {
+                background: transparent;    
+                padding: 0px;
+                border-radius: 0px;
+                box-shadow: none;
+
+                &.active {
+                    background: transparent;
+                    color: var(--lightblue-color);
+                }
+
+                .icon-wrapper {
+                    display: none;
+                }
+            }
+        }
+
+        .content-wrapper {
+            width: 100%;
+            padding: 16px;
+            border-radius: 8px;
+
+            .img-wrapper {
+                border-radius: 8px;
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    .automobileLearning {
+        .content-box {
+            padding: 30px 20px;
+        }
+        img {
+            object-position: center;
+        }
+
+        .common-heading {
+            font-size: 20px;
+        }
+    }
+
+    .ourUspImgSection {
+        .item {
+            width: 100%;
+            max-width: 550px;
+            margin: auto;
+            padding-right: 0px;
+            padding-bottom: 0px;
+        }
+
+        .inner-content {
+            padding: 24px 15px;
+            align-items: center;
+            text-align: center;
+
+            p {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+        }
+
+        .img-wrapper {
+            margin-right: 0;
+            margin-bottom: 0;
+            border-radius: 8px;
+        }
+    }
+
+    .vinsysContriSection {
+        &.two-column {
+            .item {
+                width: 100%;
+            }
+        }
+
+        &.three-column {
+            .item {
+                width: 100%;
+            }
+        }
+    }
+
+    .lmsSection {
+        .item {
+            width: 100%;
+        }
+    }
+
+    .vinsysServiceSection {
+        .item {
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+        }
+    }
+
+    .whatWeDoSection {
+        .item {
+            width: 100%;
+            max-width: 550px;
+            margin: auto;
+        }
+    }
+
+    .ourUspIconSection {
+        .item {
+            width: 100%;
+            max-width: 550px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .fmcgSection {
+        .img-wrapper {
+            position: static;
+        }
+
+        .items {
+            margin-top: 30px;
+            row-gap: 20px;
+            
+            .item {
+                width: 100%;
+            }
+        }
+    }
+
+    .aviationSection {
+        .img-wrapper {
+            position: static;
+            padding: 0px;
+        }
+
+        .items {
+            margin-top: 30px;
+        }
+
+        .item {
+            width: 100%;
+            min-height: initial;
+        }
+
+        &.offers-feature {
+            .img-wrapper {
+                img {
+                    max-width: 280px;
+                }
+                .video-sec {
+                    height: 281px;
+                    width: 216px;
+                    top: 136px;
+                    left: 2px;
+                }
+            }
+        }
+    }
+
+    .contactUs .items {
+        row-gap: 20px;
+    }
+}

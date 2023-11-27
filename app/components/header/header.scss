@@ -1,0 +1,467 @@
+// header.header {
+//     position: fixed;
+//     top: 0;
+//     z-index: 99;
+//     left: 0;
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 25px;
+//     // box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+//     // background: var(--white-color);
+//     transition: all linear .3s;
+//     right: 0;
+
+//     .container {
+//         position: relative;
+//     }
+
+//     .logo {
+//         padding: 10px 0;
+//         transition: all linear .3s;
+//     }
+
+//     .toggle-icon,
+//     .close-icon {
+//         display: none;
+//     }
+
+//     .nav-sec.no-require {
+//         display: none;
+//     }
+
+//     li {
+//         position: relative;
+
+//         ul.dropdown {
+//             position: absolute;
+//             width: 269px;
+//             padding: 27px 23px 23px 23px;
+//             background: #fff;
+//             box-shadow: 0px 5px 39px 0px rgba(0, 0, 0, 0.10);
+//             transition: all linear .3s;
+//             border-radius: 4px;
+//             animation: dropdownanimate linear .3s alternate;
+//             display: none;
+
+//             li {
+//                 a {
+//                     padding: 0 0 20px;
+//                     color: rgba(34, 34, 34, 0.80) !important;
+
+//                     &:hover {
+//                         color: var(--blue-color) !important;
+//                     }
+//                 }
+
+//                 &:last-of-type {
+//                     a {
+//                         padding: 0;
+//                     }
+//                 }
+//             }
+//         }
+
+//         &:last-of-type {
+
+//             ul.dropdown {
+//                 right: 0;
+//             }
+//         }
+
+//         &:hover {
+//             ul.dropdown {
+//                 display: block;
+//             }
+//         }
+
+//         &.dropdown-menus {
+//             position: relative !important;
+//             padding-right: 10px;
+
+//             >a {
+//                 position: relative;
+
+//                 &:after {
+//                     position: absolute;
+//                     content: "";
+//                     width: 7px;
+//                     height: 7px;
+//                     display: block;
+//                     transition: all linear .3s;
+//                     border: solid currentColor;
+//                     border-width: 0 0 1px 1px;
+//                     transform: rotate(-45deg);
+//                     right: 0px;
+//                     bottom: 21px;
+//                 }
+
+//             }
+
+//             &:hover {
+//                 a:after {
+//                     transform: rotate(-225deg);
+//                     bottom: 16px;
+//                 }
+//             }
+
+//             span.arrow-btn {
+//                 width: 40px;
+//                 height: 40px;
+//                 position: absolute;
+//                 background: var(--blue-color);
+//                 border-radius: 4px;
+//                 right: 8px;
+//                 top: 8px;
+//                 z-index: 9;
+//                 display: none;
+
+//                 &:after {
+//                     position: absolute;
+//                     content: "";
+//                     width: 10px;
+//                     height: 10px;
+//                     display: block;
+//                     transition: all linear .3s;
+//                     border: solid #fff;
+//                     border-width: 0 0 2px 2px;
+//                     transform: rotate(-45deg);
+//                     right: 0px;
+//                     bottom: 16px;
+//                     left: 0;
+//                     margin: 0 auto;
+//                 }
+
+//                 &:hover {
+//                     a:after {
+//                         transform: rotate(-225deg);
+//                     }
+//                 }
+//             }
+
+//         }
+//     }
+
+//     li:last-of-type {
+//         a {
+//             padding-right: 0;
+//         }
+//     }
+
+//     a {
+//         // color: var(--blue-color);
+//         color: var(--white-color);
+//         padding: 10px 17px;
+//         display: block;
+//         transition: all linear .3s;
+
+//         &:hover {
+//             color: var(--green-color);
+//         }
+//     }
+
+//     &.small {
+//         background: #fff;
+//         box-shadow: 0 0 25px rgba(0, 0, 0, .1);
+
+//         .logo {
+//             padding: 5px 0;
+//             max-width: 125px;
+//         }
+
+//         a {
+//             color: var(--blue-color) !important;
+//             filter: none !important;
+//             transition: all linear .3s;
+//         }
+
+//         li:hover>a {
+//             color: var(--green-color);
+//         }
+//     }
+// }
+
+// // Mega Menu
+// .megaMenu {
+//     .top {
+//         ul {
+//             column-gap: 20px;
+//             align-items: center;
+//         }
+
+//         .email {
+//             padding-left: 25px;
+//             background: url('../../../public/images/megaMenu/icon-email.svg') center left no-repeat;            
+//             background-size: 15px;
+//             filter: brightness(0) invert(1);
+//             color: #333333;
+//         }
+
+//         .number {
+//             padding-left: 25px;
+//             background: url(../../../public/images/megaMenu/icon-call.svg) center left no-repeat;
+//             background-size: 16px;
+//             filter: brightness(0) invert(1);
+//             color: #333333;
+//         }
+
+//         .country {
+//             display: flex;
+//             align-items: center;
+//             position: relative;
+//             column-gap: 5px;
+//             padding: 12px 42px 12px 10px;
+//             border: 1px solid rgba(2, 72, 128, 0.5);
+//             background: var(--white-color);
+//             border-radius: 4px;
+
+//             &::after {
+//                 content: '';
+//                 position: absolute;
+//                 right: 12px;
+//                 top: 0;
+//                 bottom: 0;
+//                 margin: auto;
+//                 background: url('../../../public/images/megaMenu/icon-arrow.svg') center center no-repeat;
+//                 background-size: 100%;
+//                 width: 13px;
+//                 height: 7px;
+//             }
+
+//             img {
+//                 max-height: 20px;
+//                 max-width: 20px;
+//             }
+//         }
+//     }
+
+//     .bottom {
+//         margin-top: 20px;
+//         column-gap: 20px;
+
+//         ul {
+//             column-gap: 32px;
+
+//             li {
+//                 position: static;
+
+//                 a {
+//                     color: var(--blue-color);
+//                 }
+
+//                 &:hover {
+//                     a {
+//                         color: var(--green-color);
+//                     }
+//                 }
+
+//                 &:last-child {
+//                     a {
+//                         padding-right: 17px;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     .cartWrapper {
+//         position: relative;
+
+//         span {
+//             position: absolute;
+//             top: -8px;
+//             right: -8px;
+//             width: 20px;
+//             height: 20px;
+//             background: var(--green-color);
+//             color: var(--white-color);
+//             font-size: 8px;
+//             display: inline-flex;
+//             justify-content: center;
+//             align-items: center;
+//             line-height: 1;
+//             padding: 2px 2px 2px 5px;
+//             border-radius: 50%;
+//             text-align: center;
+//             letter-spacing: 0.3px;
+//         }
+//     }
+
+//     .dropdown {
+//         >a {
+//             padding-right: 24px;
+//             position: relative;
+//             color: var(--blue-color);
+
+//             &::after {
+//                 /*content: '';
+//                 position: absolute;
+//                 right: 0px;
+//                 top: 0;
+//                 bottom: 0;
+//                 margin: auto;
+//                 background: url('../../../../public/images/megaMenu/icon-arrow.svg') center center no-repeat;
+//                 background-size: 100%;
+//                 width: 13px;
+//                 height: 7px;
+//                 transform: rotate(0deg);
+//                 transition: all 0.2s ease-in;*/
+//                 position: absolute;
+//                 content: "";
+//                 width: 7px;
+//                 height: 7px;
+//                 display: block;
+//                 transition: all linear .3s;
+//                 border: solid currentColor;
+//                 border-width: 0 0 1px 1px;
+//                 transform: rotate(-45deg);
+//                 right: 0px;
+//                 bottom: 21px;
+//             }
+
+//             &:hover {
+//                 &::after {
+//                     transform: rotate(-225deg);
+//                     bottom: 17px;
+//                 }
+//             }
+//         }
+
+//         &:hover {
+//             .dropdown-menu {
+//                 transform: translateY(0);
+//             }
+//         }
+
+//     }
+
+//     .dropdown-menu {
+//         position: absolute;
+//         top: 96%;
+//         background: var(--white-color);
+//         left: 0px;
+//         right: 0px;
+//         width: 100%;
+//         border: 1px solid rgba(0, 0, 0, 0.10);
+//         transform: translateY(-150%);
+
+
+//         .left-section {
+//             width: 30%;
+//             background: linear-gradient(152.57deg, rgba(155, 196, 130, 0.11) 19.45%, rgba(9, 80, 131, 0.19) 86.62%);
+//             padding: 40px;
+
+//             .items {
+//                 display: flex;
+//                 row-gap: 15px;
+//                 flex-direction: column;
+//             }
+
+//             .menuLink {
+//                 display: flex;
+//                 align-items: center;
+//                 column-gap: 20px;
+//                 padding: 15px 45px 15px 15px;
+//                 color: var(--dark-grey);
+//                 position: relative;
+
+//                 &::after {
+//                     content: '';
+//                     position: absolute;
+//                     background: url('../../../public/images/megaMenu/icon-rightArrow.svg') center right no-repeat;
+//                     background-size: 100%;
+//                     width: 20px;
+//                     height: 10px;
+//                     right: 15px;
+//                     top: 0px;
+//                     bottom: 0px;
+//                     margin: auto;
+//                     opacity: 0;
+//                     transition: all 0.5s ease-in-out;
+//                 }
+
+//                 &:hover,
+//                 &.active {
+//                     background: var(--white-color);
+//                     border-radius: 4px;
+
+//                     &:after {
+//                         opacity: 1;
+//                     }
+//                 }
+//             }
+//         }
+
+//         .right-section {
+//             width: 70%;
+//             padding: 30px 40px;
+//             position: relative;
+
+//             .btn-wrapper {
+//                 position: absolute;
+//                 right: 40px;
+//                 bottom: 40px;
+
+//                 .common-btn {
+//                     color: var(--white-color);
+//                     display: flex;
+
+//                     &:hover {
+//                         color: var(--lightblue-color);
+//                     }
+//                 }
+//             }
+
+//             .menuContent {
+//                 display: none;
+
+//                 &.active {
+//                     display: block;
+//                 }
+
+//                 ul {
+//                     display: flex;
+//                     flex-wrap: wrap;
+//                     column-gap: 2%;
+//                 }
+
+//                 .item {
+//                     width: 32%;
+
+//                     a {
+//                         padding: 20px 15px 20px 25px;
+//                         position: relative;
+//                         color: var(--blue-color);
+
+//                         &::before {
+//                             content: '';
+//                             position: absolute;
+//                             background: linear-gradient(180deg, #9AC382 0%, #074E82 100%);
+//                             width: 5px;
+//                             height: 5px;
+//                             top: 30px;
+//                             left: 0;
+//                             bottom: 0;
+//                             border-radius: 50%;
+//                         }
+
+//                         &:hover {
+//                             color: var(--green-color);
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .backButton {
+//                 display: none;
+//             }
+//         }
+//     }
+
+//     &.light-theme {
+
+//         .bottom ul li a,
+//         .top ul li a {
+//             color: var(--white-color);
+//         }
+//     }
+// }

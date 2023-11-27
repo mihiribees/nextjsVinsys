@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 128" width="68" height="128">
+	<title>facebook-app-symbol</title>
+	<defs>
+		<image  width="68" height="128" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAACACAMAAACFtD8iAAAAAXNSR0IB2cksfwAAAUdQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////fufEBAAAAG10Uk5TAAdBfJWqvtPn+vnx6eHZ0srCurKYgmtVPigFAzd6vPf/OAhq4Atz5mTsmxvJOugk7g3VAa+AKf2mpSeO0RT+xaF9WEAO2vKGFhwj43BNCmJ/d0eMLpcV+6jrEVo5GPbWtZRSMRDvzq1KCcagVt5MitQAAAF7SURBVHic7dXXT0IxFMfxoqKoV3AgeF0IKooDRRTFgXvhFvfe+/9/1vhk5J7e0+T3YOL5PrefnDRNqxQ3T0lpmbe8wldZVW3V+AO1dfUN3mBjKNxkN/OAlta29kgHVZRDxDq7SICJdMd7tAQH6U24EO6Ip8+VcEX6BxiGCzKY5Bh6ZGiYZWiR1AjP0CHpUaahQ8a4hgbJjAOQCbZBIzZ/EBrJ8g0SmTQYhESmDAwSmQYgMzkAEjYxKCSo22PNzs0vLP5oyRlZJoWV1TXiGH+XIo3AOpNQKk8ZG8TkTkUpZJNvqC3CSGwbIDsEsmtgqD0C2TdBCgRyYIIcEsiRCUJc2OM0ALFMDApJCiKIIGAkZhd34oycOiz96kzzsrM7RyAXCOQSgFwpAHKNQG4QyC0CiSOQOwRyj0AeAMijAiBPCOQZgRQQSAiBvCCQDADJvQIQnwIgbwgk+43k34vzO2+IOCz9+GM/oCCCCCKIIIIIIogggggiiCCC/GPkE2uJRCO6TZ+dAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
